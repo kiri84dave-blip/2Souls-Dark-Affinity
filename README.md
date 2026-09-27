@@ -5,21 +5,23 @@ A free cinematic dark-fantasy action RPG in the browser.
 
 You are Valen, last of the Veilbound. When the Black Star fell, every living heart cast a second shadow. Walk the Cursed Forest, the Abyss, and Inferno. Fight wardens. Bind soul ash. Speak through the veil with pilgrims who share your realm code.
 
-Built by **DR Studios**. Two playable source editions ship here — same world, two AI collaborators in the build process.
+Built by **DR Studios** in **Arena Battle Mode** — two models, same brief, four rounds, two finished games. That is why the zip names carry the model that built that cut.
 
-**Live Agent Arena session (still running):**  
+**Live Arena Battle session:**  
 https://arena.ai/agent/01a0dfbf-1cab-7130-9091-c6382179d9ad
 
-| Edition | Folder | Collaborating model |
+| Edition | Zip / folder | Model on the label |
 |---|---|---|
-| Fable 5.1 Final | `editions/fable-5.1` | Anthropic Claude Fable 5.1 session |
-| Gemini 3.8 Flash Final | `editions/gemini-3.8-flash` | Google Gemini 3.8 Flash session |
+| Fable 5.1 Final | `editions/fable-5.1` | Anthropic Claude Fable 5.1 |
+| Gemini 3.8 Flash Final | `editions/gemini-3.8-flash` | Google Gemini 3.8 Flash |
 
 Neither Anthropic, Google, Arena, nor xAI published, funded, or officially endorsed the game. The editions are DR Studios work made *with* those models as tools. Credit where it is due. The studio owns the game.
 
+On the Gemini label: Google shipped **Gemini 3.8 Flash** as a real public model on 2 Sep 2026. Some Arena watchers claim a listing under that name is secretly Gemini 4. That is rumor, not a Google announcement. This repo keeps the name printed on the zip.
+
 ## Play from source
 
-Both editions are Next.js + React Three Fiber web games. Drop the matching zip from a GitHub Release into `editions/`, or clone once the source trees are fully pushed.
+Both editions are Next.js + React Three Fiber web games.
 
 ```bash
 cd editions/gemini-3.8-flash   # or editions/fable-5.1
@@ -63,9 +65,9 @@ Source is released under the [MIT License](LICENSE) so anyone can play, fork, an
 ## Credits
 
 - **DR Studios** — direction, world, combat, presentation
-- **Arena.ai Agent Mode** — live build harness
-- **Grok (xAI)** — session host / companion during packaging
-- **Fable 5.1 edition** — built in collaboration with Anthropic Claude Fable 5.1
-- **Gemini 3.8 Flash edition** — built in collaboration with Google Gemini 3.8 Flash
+- **Arena.ai Battle Mode** — two-model build harness
+- **Grok (xAI)** — packaging / companion
+- **Fable 5.1 edition** — Anthropic Claude Fable 5.1
+- **Gemini 3.8 Flash edition** — Google Gemini 3.8 Flash (label as printed)
 
 If you post it, keep it free.
