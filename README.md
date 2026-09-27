@@ -5,18 +5,21 @@ A free cinematic dark-fantasy action RPG in the browser.
 
 You are Valen, last of the Veilbound. When the Black Star fell, every living heart cast a second shadow. Walk the Cursed Forest, the Abyss, and Inferno. Fight wardens. Bind soul ash. Speak through the veil with pilgrims who share your realm code.
 
-Built by **DR Studios** (Dave Roby). Two playable source editions ship in this repo — same world, two AI collaborators in the build process.
+Built by **DR Studios**. Two playable source editions ship here — same world, two AI collaborators in the build process.
+
+**Live Agent Arena session (still running):**  
+https://arena.ai/agent/01a0dfbf-1cab-7130-9091-c6382179d9ad
 
 | Edition | Folder | Collaborating model |
 |---|---|---|
-| Fable 5.1 Final | [`editions/fable-5.1`](editions/fable-5.1) | Anthropic-family session that produced this cut |
-| Gemini 3.8 Flash Final | [`editions/gemini-3.8-flash`](editions/gemini-3.8-flash) | Google Gemini session that produced this cut |
+| Fable 5.1 Final | `editions/fable-5.1` | Anthropic Claude Fable 5.1 session |
+| Gemini 3.8 Flash Final | `editions/gemini-3.8-flash` | Google Gemini 3.8 Flash session |
 
-Neither Anthropic nor Google published, funded, or officially endorsed the game. The editions are DR Studios work made *with* those models as tools, hosted in the same workspace that also used Grok. Credit where it is due. The studio owns the game.
+Neither Anthropic, Google, Arena, nor xAI published, funded, or officially endorsed the game. The editions are DR Studios work made *with* those models as tools. Credit where it is due. The studio owns the game.
 
-## Play
+## Play from source
 
-Both editions are Next.js + React Three Fiber web games.
+Both editions are Next.js + React Three Fiber web games. Drop the matching zip from a GitHub Release into `editions/`, or clone once the source trees are fully pushed.
 
 ```bash
 cd editions/gemini-3.8-flash   # or editions/fable-5.1
@@ -25,7 +28,7 @@ npm install
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open http://localhost:3000
 
 ### Optional persistence
 
@@ -60,8 +63,9 @@ Source is released under the [MIT License](LICENSE) so anyone can play, fork, an
 ## Credits
 
 - **DR Studios** — direction, world, combat, presentation
-- **Grok (xAI)** — session host / companion during the build
-- **Fable 5.1 edition** — built in collaboration with an Anthropic-family model
-- **Gemini 3.8 Flash edition** — built in collaboration with Google Gemini
+- **Arena.ai Agent Mode** — live build harness
+- **Grok (xAI)** — session host / companion during packaging
+- **Fable 5.1 edition** — built in collaboration with Anthropic Claude Fable 5.1
+- **Gemini 3.8 Flash edition** — built in collaboration with Google Gemini 3.8 Flash
 
-If you post it, tag the studio and keep it free.
+If you post it, keep it free.
